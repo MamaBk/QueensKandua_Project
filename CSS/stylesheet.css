@@ -1,0 +1,1028 @@
+*{
+    font-family: 'Poppins';
+    
+    overflow-x: none;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    
+    
+  }
+  /*logo for the page*/
+  .logo{
+      width: 7%;
+      position: relative;
+      top: 15px;
+      left:10px;
+  }
+  /*end of logo styling*/
+
+  /*here we are creating an animated icon image that crosses when clicked*/
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2.5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    position: relative;
+    left: 260px;
+    bottom: 10px;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  /*end of animated icon*/
+
+  /*insight on Kandua*/
+  .About{
+      text-align: left;
+      margin-top: 60px;
+      margin-left: 15px;    
+  }
+  .heading{
+      color: rgb(10, 14, 238);}
+
+  /*stats section styling*/
+  .stats{
+      
+      max-width: inherit;
+      color: white;
+      text-align: center;
+      padding: 50px;
+      padding-right: 20px;
+      padding-left: 20px;
+
+  }
+  .stats h2{
+      margin-bottom: -5px;
+  }
+  .rate{
+    position: relative;
+    bottom: 20px;
+     
+}
+.rate p{
+   font-size:15px;
+}
+.worth{
+    position: relative;
+    
+    
+    
+}
+.worth p{
+    font-size:15px;
+}
+.vetted{
+    position: relative;
+    top:20px;
+   
+    
+}
+.vetted p{
+    font-size:15px;
+}
+  /*Customer section*/
+  .customers{
+      margin-top: 25px;
+  }
+  .head{
+    color: rgb(10, 14, 238);
+    font-size: 30px;
+  }
+  .Thembi{
+      margin-top: 15px;
+  }
+  .tImg{
+      width:30%;
+      position: relative;
+      top:10px;
+  }  
+  .tText{
+    width:60%;
+    position:relative;
+    left: 140px;
+    bottom: 80px;
+ }
+ .tSign{
+    position: relative;
+    left:150px;
+    bottom: 90px;
+    text-align: right;
+    width: 50%;
+}
+ .paulo{
+     margin-top: -90px ;
+ }
+ .pImg{
+    width:30%;
+    position: relative;
+    top:10px;
+}
+  .pText{
+    width:60%;
+    position:relative;
+    left: 140px;
+    bottom: 80px;
+ }
+ .pSign{
+    position: relative;
+    left:150px;
+    bottom: 90px;
+    text-align: right;
+    width: 50%;
+}
+ .janine{
+    margin-top: -90px ;
+}
+.jImg{
+    width:30%;
+    position: relative;
+    top:10px;
+}
+  .jText{
+    width:60%;
+    position:relative;
+    left: 140px;
+    bottom: 80px;
+ }
+ .jSign{
+    position: relative;
+    left:150px;
+    bottom: 90px;
+    text-align: right;
+    width: 50%;
+}
+.quote{
+     padding: 20px;
+     color: white;
+     text-align: center;
+     position: relative;
+     bottom: 25px;
+     left:80px;
+     width: 150px;
+     margin-bottom: 30px;
+     margin-top: -0px;
+     border: none;
+ }
+ .quote a{
+     text-decoration: none;
+     color: white;
+ }
+ /*end of customer section*/
+
+ /*beginning of PRO section*/
+ .pro{
+     margin-top: -40px;
+ }
+ .dylan{
+    margin-top: -20px ;
+}
+.dImg{
+   width:30%;
+   position: relative;
+   top:10px;
+}
+ .dText{
+   width:60%;
+   position:relative;
+   left: 140px;
+   bottom: 90px;
+}
+.dSign{
+    position: relative;
+    left:150px;
+    bottom: 90px;
+    text-align: right;
+    width: 50%;
+}
+.dSign a{
+    text-decoration-line: underline;
+}
+.mahummad{
+    margin-top: -90px ;
+}
+.mahum{
+   width:30%;
+   position: relative;
+   top:10px;
+}
+ .mText{
+   width:60%;
+   position:relative;
+   left: 140px;
+   bottom: 90px;
+}
+.mSign{
+    position: relative;
+    left:150px;
+    bottom: 90px;
+    text-align: right;
+    width: 50%;
+}
+.mSign a{
+    text-decoration-line: underline;
+}
+.joe{
+    margin-top: -90px;
+}
+.joText{
+    width:60%;
+   position:relative;
+   left: 140px;
+   bottom: 90px;
+}
+.joSign{
+    position: relative;
+    left:150px;
+    bottom: 90px;
+    text-align: right;
+    width: 50%;
+
+}
+.joSign a{
+    text-decoration-line: underline;
+}
+/*END OF OUR PROS SECTION*/
+
+/*THE PARTNERS*/
+.partnersSay{
+    margin-top: 50px;
+}
+.pSay{
+    margin-top: -70px;
+}
+.yImg{
+    width: 30%;
+    margin-top: 20px;
+}
+.yText{
+    width:65%;
+    position: relative;
+    left: 120px;
+    bottom: 40px;
+}
+.ySign{
+    position: relative;
+    left:150px;
+    bottom: 50px;
+    text-align: right;
+    width: 50%;
+}
+.merlin{
+    width: 30%;
+    position: relative;
+    top: 35px;
+}
+.leroy{
+    margin-top: -50px;
+}
+.lText{
+    width:65%;
+    position: relative;
+    left: 120px;
+    bottom: 40px;
+}
+.lSign{
+    position: relative;
+    left:100px;
+    bottom: 50px;
+    text-align: right;
+    width: 70%;
+}
+/*END OF PARTNERS*/
+
+/*button to PARTNER WITH kandua*/
+ .partner{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left:50px;
+    width: 230px;
+    border: none;
+ }
+ .partner a{
+    text-decoration: none;
+    color: white;
+}
+
+/*This is the team section*/
+.team{
+    margin-top: 50px;
+}
+.Tsay{
+    margin-top: 20px;
+}
+.rosey{
+    margin-top: 20px;
+}
+.saImg{
+    width:30%;
+    position: relative;
+    top:10px;
+}
+.rText{
+  width:60%;
+  position:relative;
+  left: 140px;
+  bottom: 80px;
+}
+  .rSign{
+    position: relative;
+    left:100px;
+    bottom: 80px;
+    text-align: right;
+    width: 60%;
+}
+
+.micheal{
+    margin-top: -80px;
+}
+
+.miImg{
+    width:30%;
+    position: relative;
+    top:10px;
+}
+.miText{
+    width:60%;
+  position:relative;
+  left: 140px;
+  bottom: 80px;
+
+}
+.miSign{
+    position: relative;
+    left:100px;
+    bottom: 80px;
+    text-align: right;
+    width: 60%;
+}
+.ray{
+    margin-top: -80px;
+}
+.rImg{
+    width:30%;
+    position: relative;
+    top:10px;
+}
+/*end of team*/
+
+/*the buttons for the team section*/
+ .open{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left:80px;
+    width: 180px;
+    margin-top: -100px;
+    border: none;
+ }
+ .open a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Our one and only founders*/
+
+.fHead{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.arjun{
+    
+    margin-top: 25px;
+    text-align: center;
+}
+.arName{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.arjT a{
+    text-decoration-line: underline;
+}
+
+.soy{
+    margin-top: 40px;
+}
+
+.soyName{
+    margin-top: 20px;
+    text-align: center;
+}
+.soyT{
+    margin-top: 20px;
+    text-align: center;
+}
+.soyT a{
+    text-decoration-line: underline;
+}
+/*the get in touch button*/
+.InT{
+
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left:80px;
+    width: 180px;
+    border: none;
+    margin-top: 50px;
+ }
+.InT a{
+    text-decoration: none;
+    color: white;
+}
+.stroke{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:350px;
+}
+.back{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.back a{text-decoration-line: underline;}
+.arrow{
+    width:20px;
+    height: 1px;
+    position: relative;
+    bottom: 41px;
+    left: 300px;
+}
+
+/*the next html styling*/
+
+.Kandua{
+   font-size: 30px;
+   font-family: 'Poppins', ; 
+   margin-top:300px;
+   
+}
+.dMenu{
+    position: relative;
+    left: 110px;
+    top: 100px;
+    display: none;
+}
+.social{
+    position: relative;
+    top:100px;
+    left: 110px;
+}
+
+.fbook{
+    width: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.link{
+    width:20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.insta{
+    width:20px;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    *{
+        font-family: 'Poppins', ;
+        overflow-x: hidden;
+        
+    }
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        position: fixed;
+        display:none;
+        
+        
+      }
+      /*logo for the page*/
+      .logo{
+          width: 40px;
+          position: relative;
+          top: 30px;
+          left: 80px;
+      }
+      .dMenu{
+        position: relative;
+        
+        
+    }
+    .social{
+        position: relative;
+        top:100px;
+        left: 110px;
+    }
+    
+    .fbook{
+        width: 20px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .link{
+        width:20px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .insta{
+        width:20px;
+        display: inline-block;
+        margin-right: 10px;
+        
+    }
+     /*insight on Kandua*/
+  .About{
+    text-align: left;
+    margin-top: 100px;
+    width: 80%;
+    position: relative;
+    left: 200px;
+    
+    
+    
+}
+.heading{
+    color: rgb(10, 14, 238);
+    font-size: 60px;
+    overflow-y: hidden;
+
+}
+
+.more{
+    font-size: 30px;
+    margin-top: 50px;
+}
+/*stats section styling*/
+.stats{
+    
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+.stats h2{
+    margin-bottom: -5px;
+}
+.rate{
+    position: relative;
+    left: -500px;
+    top:72px;
+    font-size: 30px;
+   
+}
+.rate p{
+    font-size:15px;
+}
+.worth{
+    position: relative;
+    font-size: 30px;
+    overflow-y: hidden;
+    
+}
+.worth p{
+    font-size:15px;
+}
+.vetted{
+    position: relative;
+    left:500px;
+    bottom: 78px;
+    font-size: 30px;
+    overflow-y: hidden;
+    
+}
+.vetted p{
+    font-size:15px;
+}
+/*Customer section*/
+.customers{
+    
+    position: relative;
+    left: 180px;
+}
+ .head{
+    color: rgb(10, 14, 238);
+    font-size: 40px;
+    
+  }
+  .Thembi{
+      margin-top: 15px;
+  }
+  .tImg{
+      width:150px;
+      position: relative;
+      top:10px;
+  }  
+  .tText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 150px;
+    font-size: 16px;
+ }
+ .tSign{
+    position: relative;
+    left:950px;
+    bottom: 160px;
+    text-align: left;
+}
+ .paulo{
+     margin-top: -90px ;
+ }
+ .pImg{
+      width:150px;
+      position: relative;
+      top:50px;
+}
+  .pText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 100px;
+    font-size: 16px;
+ }
+ .pSign{
+    position: relative;
+    left:950px;
+    bottom: 120px;
+    text-align: left;
+}
+ .janine{
+    margin-top: -90px ;
+}
+.jImg{
+      width:150px;
+      position: relative;
+      top:70px;
+}
+  .jText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 80px;
+    font-size: 16px;
+ }
+ .jSign{
+    position: relative;
+    left:950px;
+    bottom: 100px;
+    text-align: left;
+}
+.quote{
+     padding: 15px;
+     color: white;
+     text-align: center;
+     position: relative;
+     top:30px;
+     left:450px;
+     width: 180px;
+     margin-bottom: 50px;
+     margin-top: -20px;
+ }
+ .quote a{
+     text-decoration: none;
+     color: white;
+ }
+ /*end of customer section*/  
+ 
+ /*beginning of PRO section*/
+ .pros{
+    position: relative;
+    left: 180px;
+    margin-top: 90px;
+ }
+ .proSay{
+     font-size: 40px;
+ }
+ .dylan{
+    margin-top: -80px ;
+}
+.dImg{
+    width:150px;
+    position: relative;
+    top:70px;
+}
+ .dText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 80px;
+    font-size: 16px;
+}
+.dSign{
+    position: relative;
+    left:850px;
+    bottom: 100px;
+    text-align: left;
+}
+.dSign a{
+    text-decoration-line: underline;
+}
+.mahummad{
+    margin-top: -90px ;
+}
+.mahum{
+    width:150px;
+    position: relative;
+    top:75px;
+}
+ .mText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 80px;
+    font-size: 16px;
+}
+.mSign{
+    position: relative;
+    left:850px;
+    bottom: 100px;
+    text-align: left;
+}
+.mSign a{
+    text-decoration-line: underline;
+}
+.joe{
+    margin-top: -80px;
+}
+.joSign{
+    position: relative;
+    left:950px;
+    bottom: 100px;
+    text-align: left;
+
+}
+.joSign a{
+    text-decoration-line: underline;
+}
+/*END OF OUR PROS SECTION*/
+
+/*THE PARTNERS*/
+.partnersSay{
+    position: relative;
+    margin-top: 90px;
+}
+.pSay{
+    margin-top: -70px;
+    font-size: 40px;
+}
+.yImg{
+    width:130px;
+    position: relative;
+    top:10px;
+}
+.yText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 40px;
+    font-size: 16px;
+}
+.ySign{
+    position: relative;
+    left:960px;
+    bottom: 60px;
+    text-align: left;
+}
+.merlin{
+    width:140px;
+    position: relative;
+    top:20px;
+}
+.leroy{
+    margin-top: -50px;
+}
+.lText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 40px;
+    font-size: 16px;
+}
+.lSign{
+    position: relative;
+    left:800px;
+    bottom: 35px;
+    text-align: left;
+}
+/*END OF PARTNERS*/
+
+/*button to PARTNER WITH kandua*/
+.partner{
+    padding: 15px;
+     color: white;
+     text-align: center;
+     position: relative;
+     top:30px;
+     left:450px;
+     width: 180px;
+     margin-bottom: 50px;
+     margin-top: -20px;
+ }
+ .partner a{
+    text-decoration: none;
+    color: white;
+}
+
+/*This is the team section*/
+.Tsay{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.saImg{
+    width:140px;
+    position: relative;
+    top:20px;
+}
+.rText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 120px;
+    font-size: 16px;
+}
+  .rSign{
+    position: relative;
+    left:800px;
+    bottom: 120px;
+    text-align: left;
+}
+
+.micheal{
+    margin-top: -50px;
+}
+
+.miImg{
+    width:140px;
+    position: relative;
+    top:20px;
+}
+.miText{
+    width:60%;
+    position:relative;
+    left: 200px;
+    bottom: 120px;
+    font-size: 16px;
+}
+.miSign{
+    position: relative;
+    left:800px;
+    bottom: 140px;
+    text-align: left;
+}
+.ray{
+    margin-top: -80px;
+}
+.rImg{
+    width:140px;
+    position: relative;
+    top:20px;
+}
+/*end of team*/
+
+/*the buttons for the team section*/
+.open{
+    padding: 15px;
+     color: white;
+     text-align: center;
+     position: relative;
+     top:30px;
+     left:450px;
+     width: 180px;
+     margin-bottom: 50px;
+     margin-top: -20px;
+ }
+ .open a{
+    text-decoration: none;
+    color: white;
+}
+/*the get in touch button*/
+ .InT{
+
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top:30px;
+    left:450px;
+    width: 180px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+     }
+.InT a{
+        text-decoration: none;
+        color: white;
+}
+
+/*Our one andonly founders*/
+.founders{
+    margin-bottom: -300px;
+}
+
+.fHead{
+    margin-top: 20px;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+}
+.arjun{
+    margin-top: 40px;
+    text-align: center;
+    overflow-y: hidden;
+}
+.arj{
+    width:450px;
+    position: relative;
+    top:20px;
+    right: 350px;
+}
+.arjT{
+    width:60%;
+    position:relative;
+    left: 200px;
+    top: 20px;
+    font-size: 16px;
+    width:30%;
+}
+.arjT a{
+    text-decoration-line: underline;
+}
+.arName{
+    position:relative;
+    right: 350px;
+    top:30px;
+    
+}
+.Soya{
+    overflow-y: none;
+    position: relative;
+    left: 600px;
+    bottom: 450px;
+}
+.soy{
+    width:450px;
+    position: relative;
+    top:20px;
+    left: 150px;
+}
+
+.soyName{
+    text-align: center;
+    position: relative;
+    right: 350px;
+    top: 20px;
+    font-size: 25px;
+}
+.soyT{
+    text-align: center;
+    width:60%;
+    position:relative;
+    left: 200px;
+    top: 10px;
+    font-size: 16px;
+    width:30%
+}
+.soyT a{
+    text-decoration-line: underline;
+}
+.stroke{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:1500px;
+    font-weight: 900;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
