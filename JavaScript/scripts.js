@@ -10,4 +10,4 @@ function myFunction(x) {
  menu.addEventListener('click', e => {
     //dMenu.style.display = "block";
     location.href = "nav.html";
- })
+ });
